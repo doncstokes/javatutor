@@ -66,10 +66,18 @@ public abstract class Human {
 		this.name = name;
 	}
 
+	/**
+	 * Accessor method for birth property
+	 * @return  birth (date, time, time zone)
+	 */
 	public ZonedDateTime getBirth() {
 		return birth;
 	}
 
+	/**
+	 * Mutator method for birth property
+	 * @param birth  New value for birth property
+	 */
 	public void setBirth(ZonedDateTime birth) {
 		this.birth = birth;
 	}

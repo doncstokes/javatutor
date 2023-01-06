@@ -5,12 +5,16 @@ import java.time.ZonedDateTime;
 /**
  * Specialization class (subclass) of the superclass Human.
  * @author Don Stokes
- *
  */
 public class Woman extends Human {
-
+	/**
+	 * Constructor
+	 * @param name  Name for new Human
+	 * @param birth  Birth date/time for new Human
+	 * @see Human
+	 */
 	public Woman(String name, ZonedDateTime birth) {
-		/**
+		/*
 		 * The first executable statement of this constructor must invoke the
 		 * constructor of the superclass since it must be initialized first
 		 * and that cannot happen without the required parameters.
