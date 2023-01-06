@@ -17,3 +17,8 @@ Create a new Java program that includes the following features of Object Oriente
 * Polymorphism
 
 You should have a base class that at least two other classes extend. Be prepared to explain these concepts to a mentor.
+
+## Future Topics
+* Interfaces
+* Event Driven Programming
+* Skeleton Robot Program
